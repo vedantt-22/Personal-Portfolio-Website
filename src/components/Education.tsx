@@ -4,23 +4,16 @@ import React from "react";
 const Education = () => {
   const timeline = [
     {
-      year: "2018 - 2022",
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
+      year: "2022 - 2026",
+      degree: "Bachelor of Education in Artificial Intelligence & Data Science",
+      institution: "SIES Graduate School of Technology",
       description:
         "Graduated with honors. Focused on web development, algorithms, and data structures. Completed a capstone project developing a full-stack web application.",
     },
     {
-      year: "2022 - 2023",
-      degree: "Master of Science in Software Engineering",
-      institution: "Tech Institute",
-      description:
-        "Specialized in advanced web technologies and user experience design. Thesis focused on optimizing performance in React applications.",
-    },
-    {
-      year: "2023",
-      degree: "UI/UX Design Certification",
-      institution: "Design Academy Online",
+      year: "2024",
+      degree: "Google Data Analytics Certification",
+      institution: "Google",
       description:
         "Comprehensive course covering user research, wireframing, prototyping, and design systems. Created multiple portfolio projects.",
     },
@@ -92,7 +85,7 @@ const Education = () => {
               <div className="space-y-4">
                 <div>
                   <div className="flex justify-between mb-1">
-                    <span>English</span>
+                    <span>Marathi</span>
                     <span className="text-gray-600">Native</span>
                   </div>
                   <div className="skill-bar">
@@ -101,7 +94,7 @@ const Education = () => {
                 </div>
                 <div>
                   <div className="flex justify-between mb-1">
-                    <span>Spanish</span>
+                    <span>English</span>
                     <span className="text-gray-600">Fluent</span>
                   </div>
                   <div className="skill-bar">
@@ -109,10 +102,6 @@ const Education = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="flex justify-between mb-1">
-                    <span>French</span>
-                    <span className="text-gray-600">Intermediate</span>
-                  </div>
                   <div className="skill-bar">
                     <div className="skill-progress" style={{ width: "65%" }}></div>
                   </div>

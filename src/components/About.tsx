@@ -34,7 +34,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
           <div className="lg:col-span-2">
             <p className="text-gray-600 mb-6">
-              I am a passionate web developer with 5+ years of experience in
+              I am a passionate web developer with 2+ years of experience in
               creating beautiful, functional, and user-centered digital
               experiences. With a background in both design and development, I
               bring a unique perspective to every project.

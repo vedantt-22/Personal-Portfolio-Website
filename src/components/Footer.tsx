@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">John Doe</h2>
+            <h2 className="text-2xl font-bold">Vedant Karekar</h2>
             <p className="text-gray-400 mt-2">Web Developer & Designer</p>
           </div>
 
@@ -56,9 +56,9 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li className="text-gray-400">johndoe@example.com</li>
-                <li className="text-gray-400">+1 (123) 456-7890</li>
-                <li className="text-gray-400">New York, NY, USA</li>
+                <li className="text-gray-400">vedantkarekar22@gmail.com</li>
+                <li className="text-gray-400">+91 8591589275</li>
+                <li className="text-gray-400">Mumbai, India</li>
               </ul>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © {year} John Doe. All rights reserved.
+            © {year} Vedant Karekar. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a

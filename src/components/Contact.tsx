@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,7 +15,9 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -45,20 +46,20 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      content: "johndoe@example.com",
-      link: "mailto:johndoe@example.com",
+      content: "vedantkarekar22@gmail.com",
+      link: "mailto:vedantkarekar22@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      content: "+1 (123) 456-7890",
-      link: "tel:+11234567890",
+      content: "+91 8591589275",
+      link: "tel:+91 8591589275",
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Location",
-      content: "New York, NY, USA",
-      link: "https://goo.gl/maps/JwYLGBg6MKpPuETc6",
+      content: "Mumbai, India",
+      link: "https://www.google.com/maps/search/?api=1&q=Mumbai,+India",
     },
   ];
 
@@ -76,12 +77,12 @@ const Contact = () => {
                     htmlFor="name"
                     className="block text-sm font-medium text-gray-700 mb-1"
                   >
-                    Your Name
+                    Vedant Karekar
                   </label>
                   <Input
                     id="name"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Vedant Karekar"
                     className="contact-input"
                     required
                     value={formData.name}
@@ -99,7 +100,7 @@ const Contact = () => {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="johndoe@example.com"
+                    placeholder="vedantkarekar22@gmail.com"
                     className="contact-input"
                     required
                     value={formData.email}
@@ -184,26 +185,26 @@ const Contact = () => {
                 <h3 className="text-xl font-bold mb-4">Follow Me</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
-                    className="h-10 w-10 bg-[#1877f2]/10 text-[#1877f2] rounded-full flex items-center justify-center hover:bg-[#1877f2] hover:text-white transition-colors"
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a
-                    href="#"
+                    href="https://twitter.com" // Update this if you have a Twitter
                     className="h-10 w-10 bg-[#1da1f2]/10 text-[#1da1f2] rounded-full flex items-center justify-center hover:bg-[#1da1f2] hover:text-white transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/vedant-karekar/"
                     className="h-10 w-10 bg-[#0077b5]/10 text-[#0077b5] rounded-full flex items-center justify-center hover:bg-[#0077b5] hover:text-white transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/vedantt-22"
                     className="h-10 w-10 bg-[#171515]/10 text-[#171515] rounded-full flex items-center justify-center hover:bg-[#171515] hover:text-white transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
