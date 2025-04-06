@@ -1,6 +1,5 @@
-
 import React, { useState } from "react";
-import { ExternalLink, GitHub, ArrowRight } from "lucide-react";
+import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Projects = () => {
@@ -98,7 +97,7 @@ const Projects = () => {
                       rel="noreferrer"
                       className="bg-white/20 backdrop-blur-sm p-2 rounded-full hover:bg-white/40 transition-colors"
                     >
-                      <GitHub className="w-5 h-5 text-white" />
+                      <Github className="w-5 h-5 text-white" />
                     </a>
                     <a
                       href={project.liveLink}

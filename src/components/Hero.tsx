@@ -1,6 +1,5 @@
-
 import React from "react";
-import { ArrowDown, GitHub, Linkedin, Twitter } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -37,7 +36,7 @@ const Hero = () => {
                   rel="noreferrer"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
-                  <GitHub size={20} />
+                  <Github size={20} />
                 </a>
                 <a
                   href="https://linkedin.com"
